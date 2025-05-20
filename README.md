@@ -116,7 +116,7 @@ Un método en Java es un conjunto de instrucciones que se agrupan para realizar 
 
 <br>
 <h3 align="left">🔦 | Clasificacion de metodos</h3>
-
+<p align="center"> En Java, los métodos pueden clasificarse principalmente en dos tipos según su relación con la clase y los objetos: <code>métodos estáticos</code> y <code>métodos de instancia</code></p>
 </br>
 
 
