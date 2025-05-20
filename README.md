@@ -14,3 +14,11 @@ public class MetodoEjemplo {
 }
   </code></pre>
 </div>
+
+```java
+// Aquí va tu código Java
+public class Ejemplo {
+    public void metodo() {
+        System.out.println("Hola, método!");
+    }
+}
