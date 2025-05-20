@@ -203,7 +203,6 @@ Un método típico en Java consta de los siguientes elementos fundamentales
     <summary align="center">ver más</summary>
     <p align="left">
       Los métodos estáticos son ideales para operaciones auxiliares o utilitarias que no dependen de los datos de una instancia específica. No pueden acceder directamente a atributos o métodos no estáticos de la clase, ya que no operan sobre un objeto en particular.<br><br>
-
       <strong>Ejemplo:</strong><br>
       <pre><code>
 public class Matematica {
