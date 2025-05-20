@@ -42,6 +42,29 @@ Un método en Java es un conjunto de instrucciones que se agrupan para realizar 
     </details>
 </details>
 
+<details>
+    <summary>Nombre de variables con su union del proceso</summary>
+    <p align="star">Debe seguir igual al proceso que se hara si es un menu entonces debe llamarse menu</p>
+    <div align="center">
+        <pre>
+            <code>
+                public static void menu(){
+                // logica para el menu
+                }
+            </code>
+            <h2> y lo llamamos en el main asi</h2>
+            <pre>
+                <code>
+                    public class xddd {
+    public static void main(String[] args) {
+                        }
+                    }
+                </code>
+            </pre>
+        </pre>
+    </div>
+</details>
+
 </br>
 
 
