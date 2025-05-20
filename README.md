@@ -338,7 +338,8 @@ p.saludar();
   Hecho con ❤️ por BlackConsole / Aka. 007x86 🕵️  
   <br>
   rendirse no es una opcion - Aka. 007x86
+<br>
+    🚀 ¡Gracias por visitar mi perfil!
+
 </p>
-<p align="center">
-  🚀 ¡Gracias por visitar mi perfil!
-</p>
+
