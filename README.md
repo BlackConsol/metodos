@@ -345,7 +345,7 @@ p.saludar();
   <br><br>
   rendirse no es una opcion - Aka. 007x86
 </p>
-<p >Fabian mauricio  meneses yañez</p> 
+<p align="center">Fabian mauricio  meneses yañez</p> 
     <p align="center">Maria Camila Ramón Florez</p>
     <p align="center">Julian Rincon - Aka.007x86</p>
 
