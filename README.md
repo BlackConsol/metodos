@@ -318,7 +318,7 @@ p.saludar();
   <tr>
     <td align="center">
       <img src="./assets/reto1.webp" width="200" title="reto 1 de metodos" alt="java"><br>
-      <p><strong>Métodos en Java</strong></p>
+      <p><strong>Reto de metodos en Java #1 </strong></p>
       <a href="https://github.com/BlackConsol/metodos" title="ir al recurso">
         <img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white" title="Ver en GitHub" alt="Enlace a GitHub">
       </a>
