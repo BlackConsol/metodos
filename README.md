@@ -38,7 +38,7 @@ Un método en Java es un conjunto de instrucciones que se agrupan para realizar 
     <p align="left">Indica el tipo de dato que el método devolverá al finalizar su ejecución. Puede ser un tipo <code>primitivo</code>, un <code>objeto</code> o <code>void</code> si no devuelve ningún valor.</p>
     <details>
         <summary align="center">ver mas</summary>
-        <p align="star"> el tipo de dato que el método devolverá tras su ejecución, pudiendo ser tipos primitivos <code>int</code>, <code>boolean</code  objetos o void si             no retorna ningún valor</p>
+        <p align="star"> el tipo de dato que el método devolverá tras su ejecución, pudiendo ser tipos primitivos <code>int</code> <code>boolean</code  objetos o void si             no retorna ningún valor</p>
     </details>
 </details>
 
