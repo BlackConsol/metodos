@@ -333,6 +333,7 @@ p.saludar();
 
 </body>
 </html>
+<br>
 
 <p align="center">
   Hecho con ❤️ por BlackConsole / Aka. 007x86 🕵️  
@@ -343,3 +344,12 @@ p.saludar();
 
 </p>
 
+<p align="center">
+  Hecho con ❤️ por BlackConsole / Aka. 007x86 🕵️  
+  <br>
+  <br><br>
+  rendirse no es una opcion - Aka. 007x86
+</p>
+<p align="center">
+  🚀 ¡Gracias por visitar mi perfil!
+</p>
