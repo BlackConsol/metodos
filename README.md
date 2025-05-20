@@ -308,6 +308,9 @@ p.saludar();
   </details>
 </details>
 
+<div align="center">
+<img src="https://img.shields.io/badge/-Rendirse%20no%20es%20una%20opcion-blue?style=for-the-badge" width="310"/>
+</div>
 
 </br>
 
