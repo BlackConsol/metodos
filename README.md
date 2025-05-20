@@ -119,42 +119,59 @@ Un método en Java es un conjunto de instrucciones que se agrupan para realizar 
 <p align="left"> En Java, los métodos pueden clasificarse principalmente en dos tipos según su relación con la clase y los objetos: <code>métodos estáticos</code> y <code>metodos de instancia</code></p>
 
 <details>
-    <details>
+  <summary>Métodos estáticos (<code>static</code>)</summary>
+  <p align="left">
+    Son aquellos que pertenecen a la clase en sí, no a una instancia específica. Esto significa que pueden ser llamados directamente usando el nombre de la clase, sin necesidad de crear un objeto.
+  </p>
+  
+  <details>
     <summary align="center">ver más</summary>
     <p align="left">
-      <strong>Métodos estáticos (<code>static</code>):</strong><br>
-      Son aquellos que pertenecen a la clase en sí, no a una instancia específica. Esto significa que pueden ser llamados directamente usando el nombre de la clase, sin necesidad de crear un objeto. Son útiles para operaciones utilitarias o auxiliares que no requieren modificar el estado de un objeto.<br><br>
-      <em>Ejemplo:</em><br>
-      <code>
-        public class Matematica {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;public static int sumar(int a, int b) {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return a + b;<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;}<br>
-        }
-      </code><br>
-      Se invoca con: <code>Matematica.sumar(3, 4);</code>
-      <br><br>
-      <strong>Métodos de instancia:</strong><br>
-      Estos métodos requieren que se cree un objeto de la clase para poder ser invocados. Operan sobre los atributos de esa instancia en particular, accediendo a su estado interno.<br><br>
-      <em>Ejemplo:</em><br>
-      <code>
-        public class Persona {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;private String nombre;<br><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;public Persona(String nombre) {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.nombre = nombre;<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;}<br><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;public void saludar() {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Hola, soy " + nombre);<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;}<br>
-        }
-      </code><br>
-      Se invoca así:<br>
-      <code>Persona p = new Persona("Juan");<br>
-      p.saludar();</code><br><br>
-      La elección entre usar métodos estáticos o de instancia dependerá del propósito del método y si este necesita o no acceder al estado de un objeto específico.
+      Los métodos estáticos son ideales para operaciones auxiliares o utilitarias que no dependen de los datos de una instancia específica. No pueden acceder directamente a atributos o métodos no estáticos de la clase, ya que no operan sobre un objeto en particular.<br><br>
+
+      <strong>Ejemplo:</strong><br>
+      <pre><code>
+public class Matematica {
+    public static int sumar(int a, int b) {
+        return a + b;
+    }
+}
+      </code></pre>
+      <strong>Invocación:</strong> <code>Matematica.sumar(3, 4);</code>
     </p>
   </details>
 </details>
+
+<details>
+  <summary>Métodos de instancia</summary>
+  <p align="left">
+    Estos métodos requieren que se cree un objeto de la clase para poder ser invocados. Operan sobre los atributos de esa instancia, accediendo a su estado interno.
+  </p>
+  
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      Los métodos de instancia son los más comunes en la programación orientada a objetos. Al acceder a través de un objeto, pueden leer y modificar los atributos de dicha instancia, permitiendo una lógica personalizada según el estado del objeto.<br><br>
+      <strong>Ejemplo:</strong><br>
+      <pre><code>
+public class Persona {
+    private String nombre;
+    public Persona(String nombre) {
+        this.nombre = nombre;
+    }
+    public void saludar() {
+        System.out.println("Hola, soy " + nombre);
+    }
+}
+      </code></pre>
+      <strong>Invocación:</strong><br>
+      <pre><code>
+Persona p = new Persona("Juan");
+p.saludar();
+      </code></pre>
+      La elección entre un método estático o uno de instancia dependerá de si se necesita o no acceder al estado particular de un objeto. Si no es necesario, un método estático puede ser más adecuado y eficiente.
+    </p>
+  </details>
 </details>
 
 
