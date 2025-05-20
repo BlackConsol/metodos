@@ -99,11 +99,14 @@ Un método en Java es un conjunto de instrucciones que se agrupan para realizar 
     <p align="left">
       El cuerpo del método es el bloque donde se define la lógica que el método ejecutará. Aquí se colocan las sentencias necesarias para realizar la tarea que se espera del método: operaciones, condiciones, bucles, llamadas a otros métodos, etc.<br><br>
       Ejemplo:<br>
+        <pre>
       <code>
         public int cuadrado(int x) {<br>
         &nbsp;&nbsp;&nbsp;&nbsp;return x * x;<br>
         }
-      </code><br><br>
+      </code>
+        </pre>
+    <br><br>
       En este caso, el cuerpo contiene una única instrucción: retornar el cuadrado del número recibido.
     </p>
   </details>
