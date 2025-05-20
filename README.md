@@ -177,6 +177,64 @@ p.saludar();
 
 </br> 
 
+<br>
+<h2 align="left"> 🎖️ | Ventajas de uso de <strong>Metodos</strong></h2>
+<p align="left">El uso de métodos en Java representa una práctica esencial de la programación estructurada y orientada a objetos. Permiten estructurar mejor el código, hacerlo más claro, reutilizable y fácil de mantener</p>
+
+<details>
+  <summary>Reutilización del código</summary>
+  <p align="left">
+    Permite encapsular una lógica para usarla en diferentes partes del programa, evitando la repetición de código.
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      La reutilización de código mediante métodos permite escribir una función una sola vez y luego invocarla cuantas veces sea necesario. Esto no solo reduce la redundancia, sino que también mejora la eficiencia del desarrollo. Además, facilita la localización y corrección de errores, ya que cualquier cambio en el comportamiento se hace en un único lugar.
+    </p>
+  </details>
+</details>
+
+<details>
+  <summary>Modularidad</summary>
+  <p align="left">
+    Ayuda a dividir el programa en partes más pequeñas y manejables.
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      La modularidad implica descomponer un programa en componentes independientes, cada uno representado por un método con una responsabilidad específica. Esto facilita el diseño, desarrollo y pruebas del software, permitiendo incluso la colaboración entre distintos programadores que pueden trabajar en métodos diferentes sin interferencias.
+    </p>
+  </details>
+</details>
+
+<details>
+  <summary>Legibilidad</summary>
+  <p align="left">
+    Facilita la comprensión del programa al tener bloques de código separados y con nombres descriptivos.
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      Cuando el código está organizado en métodos bien nombrados, el flujo del programa se vuelve más claro. Leer nombres como <code>calcularPromedio()</code> o <code>validarEntrada()</code> es mucho más intuitivo que interpretar directamente una secuencia de instrucciones complejas. Esto mejora la comunicación entre desarrolladores y la comprensión del sistema en general.
+    </p>
+  </details>
+</details>
+
+<details>
+  <summary>🔧 Mantenimiento</summary>
+  <p align="left">
+    Permite realizar cambios o mejoras de forma centralizada y segura.
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      Al concentrar la lógica en métodos específicos, cualquier corrección o mejora puede hacerse sin afectar el resto del programa. Si el método se reutiliza en varios lugares, con una sola modificación se actualiza automáticamente en todos ellos. Esto disminuye el riesgo de errores y mejora la sostenibilidad del software a largo plazo.
+    </p>
+  </details>
+</details>
+
+
+</br>
 
 
 
