@@ -43,7 +43,7 @@ Un método en Java es un conjunto de instrucciones que se agrupan para realizar 
 </details>
 
 <details>
-    <summary>Nombre de variables con su union del proceso</summary>
+    <summary>Nombre de metodo con su union del proceso</summary>
     <p align="star">Debe seguir igual al proceso que se hara si es un menu entonces debe llamarse menu</p>
     <div align="center">
         <pre>
