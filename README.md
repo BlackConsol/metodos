@@ -9,6 +9,7 @@
 <br>
   <h1 align="center">Metodos en Java 👨‍💻</h1>
   <h2 align="left"> 📙 | Introduccion a metodos en Java</h2>
+    <img src="./assets/metodos.webp" width="400" title="clase de metodos en java"><br>
   <p align="left">
 En Java, los métodos son bloques de código que realizan tareas específicas y pueden ser reutilizados a lo largo del programa. Representan una forma tradicional y estructurada de organizar la lógica, facilitando la modularidad y el mantenimiento del código. Un método en Java se define con un nombre, un tipo de retorno, y puede recibir parámetros para operar sobre datos de entrada.
 
