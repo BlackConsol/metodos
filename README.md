@@ -345,6 +345,10 @@ p.saludar();
   <br><br>
   rendirse no es una opcion - Aka. 007x86
 </p>
+<p>Fabian mauricio  meneses yañez, 
+    Maria Camila Ramón Florez
+    Julian Rincon - Aka.007x86
+</p>
 <p align="center">
   🚀 ¡Gracias por visitar mi perfil!
 </p>
