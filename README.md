@@ -23,6 +23,10 @@ Un método en Java es un conjunto de instrucciones que se agrupan para realizar 
 <p align="left">
     Un método típico en Java consta de los siguientes elementos:
 </p>
+    <details>
+        <summary><strong>Modificador de acceso</strong></summary>
+        <p align="center"> Define la visibilidad del método por ejemplo <code>public</code> <code>private</code></p>
+    </details>
 
 
 </br>
