@@ -54,13 +54,6 @@ Un método en Java es un conjunto de instrucciones que se agrupan para realizar 
             </code>
             <h2> y lo llamamos en el main asi</h2>
             <pre>
-                <code>
-                    public class xddd {
-    public static void main(String[] args) {
-                        }
-                    }
-                </code>
-            </pre>
         </pre>
     </div>
 </details>
