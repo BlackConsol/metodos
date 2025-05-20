@@ -57,6 +57,62 @@ Un método en Java es un conjunto de instrucciones que se agrupan para realizar 
         </pre>
     </div>
 </details>
+<details>
+  <summary>Tipo de retorno</summary>
+  <p align="left">
+    Indica el tipo de dato que el método devolverá al finalizar su ejecución. Puede ser un tipo <code>primitivo</code>, un <code>objeto</code> o <code>void</code> si no devuelve ningún valor.
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      El tipo de retorno es esencial para determinar qué tipo de resultado ofrece un método. Java es un lenguaje fuertemente tipado, por lo tanto, todo método que no sea <code>void</code> debe devolver obligatoriamente un valor del tipo declarado.<br><br>
+      Ejemplos de tipos primitivos: <code>int</code>, <code>double</code>, <code>char</code>, <code>boolean</code>.<br>
+      También se puede retornar un objeto, como una instancia de una clase personalizada, por ejemplo <code>Persona</code>, <code>String</code> o una colección como <code>List&lt;String&gt;</code>.<br>
+      El tipo <code>void</code> indica que el método no devuelve ningún valor.
+    </p>
+  </details>
+</details>
+
+<details>
+  <summary>Parámetros (opcionales)</summary>
+  <p align="left">
+    Valores que el método recibe para operar. Los parámetros permiten que un método trabaje con información que le es pasada desde el exterior.
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      Los parámetros son variables que se declaran entre los paréntesis del encabezado del método. Cada parámetro tiene un tipo de dato y un nombre, separados por comas si hay más de uno.<br><br>
+      Por ejemplo: <code>public int sumar(int a, int b)</code><br>
+      Aquí, <code>a</code> y <code>b</code> son parámetros de tipo <code>int</code>.<br>
+      Los métodos también pueden no tener parámetros, y en ese caso se escriben los paréntesis vacíos <code>()</code>.
+    </p>
+  </details>
+</details>
+
+<details>
+  <summary>Cuerpo del método</summary>
+  <p align="left">
+    Contiene las instrucciones que se ejecutan cuando el método es llamado. Está delimitado por llaves <code>{ }</code>.
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      El cuerpo del método es el bloque donde se define la lógica que el método ejecutará. Aquí se colocan las sentencias necesarias para realizar la tarea que se espera del método: operaciones, condiciones, bucles, llamadas a otros métodos, etc.<br><br>
+      Ejemplo:<br>
+      <code>
+        public int cuadrado(int x) {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;return x * x;<br>
+        }
+      </code><br><br>
+      En este caso, el cuerpo contiene una única instrucción: retornar el cuadrado del número recibido.
+    </p>
+  </details>
+</details>
+
+
+
+
+
 
 </br>
 
