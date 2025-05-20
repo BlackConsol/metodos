@@ -15,12 +15,19 @@ En Java, los métodos son bloques de código que realizan tareas específicas y 
 El uso adecuado de los métodos permite encapsular comportamientos, promover la reutilización y mejorar la legibilidad del código, valores que han sido pilares fundamentales en el desarrollo de software desde sus orígenes. Además, los métodos en Java pueden clasificarse en estáticos o de instancia, dependiendo de si pertenecen a la clase o a un objeto en particular, lo que ofrece flexibilidad para diseñar sistemas robustos y bien estructurados.
   </p>
   
+<h2 align="left"> 🔎📄 | Explicacion de metodos Java</h2>
+<p align="justify">
+Un método en Java es un conjunto de instrucciones que se agrupan para realizar una tarea concreta dentro de un programa. La creación y uso de métodos es una práctica tradicional en la programación estructurada y orientada a objetos, pues facilita la organización y reutilización del código, valores que se han mantenido vigentes con el paso del tiempo.
+</p>
+<h3 align="left"> 🤔 | Parte de metodos Java</h3>
+<p align="left">
+    Un método típico en Java consta de los siguientes elementos:
+</p>
 
 
 </br>
 
 <br>
-<h2 align="left">Explicacion de metodos Java</h1>
 
 </br>
 
