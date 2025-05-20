@@ -115,7 +115,7 @@ Un método en Java es un conjunto de instrucciones que se agrupan para realizar 
 </br>
 
 <br>
-<h3 align="center">🔦 | Clasificacion de metodos</h3>
+<h3 align="left">🔦 | Clasificacion de metodos</h3>
 
 </br>
 
