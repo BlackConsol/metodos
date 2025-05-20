@@ -26,6 +26,8 @@ Un método en Java es un conjunto de instrucciones que se agrupan para realizar 
     <details>
         <summary><strong>Modificador de acceso</strong></summary>
         <p align="left"> Define la visibilidad del método por ejemplo <code>public</code> <code>private</code></p>
+    </details>
+    <details>
         <summary>ver mas</summary>
         <p align="center"><code>public</code> permite el acceso desde cualquier clase, mientras que <code>private</code>  restringe su uso únicamente dentro de la misma clase.
         </p>
