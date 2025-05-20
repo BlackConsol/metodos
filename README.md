@@ -19,6 +19,85 @@ El uso adecuado de los métodos permite encapsular comportamientos, promover la 
 <p align="justify">
 Un método en Java es un conjunto de instrucciones que se agrupan para realizar una tarea concreta dentro de un programa. La creación y uso de métodos es una práctica tradicional en la programación estructurada y orientada a objetos, pues facilita la organización y reutilización del código, valores que se han mantenido vigentes con el paso del tiempo.
 </p>
+
+
+<h2 align="left">Partes de un método</h1>
+
+<p align="left">
+Un método típico en Java consta de los siguientes elementos fundamentales:
+</p>
+
+<details>
+  <summary>Modificador de acceso</summary>
+  <p align="left">
+    Define la visibilidad del método dentro del proyecto (por ejemplo, <code>public</code>, <code>private</code>).
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      Los modificadores de acceso determinan desde dónde puede ser accedido un método. Por ejemplo, <code>public</code> permite el acceso desde cualquier clase; <code>private</code> restringe el acceso a la clase donde se declara; <code>protected</code> permite acceso dentro del mismo paquete o subclases; y si no se especifica (package-private), solo puede ser accedido dentro del mismo paquete. Esto proporciona control sobre la encapsulación y seguridad del código.
+    </p>
+  </details>
+</details>
+
+<details>
+  <summary>Tipo de retorno</summary>
+  <p align="left">
+    Indica el tipo de dato que el método devolverá al finalizar su ejecución.
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      El tipo de retorno es fundamental en Java, ya que especifica el tipo de valor que el método entregará. Puede ser un tipo primitivo como <code>int</code>, <code>boolean</code>, <code>double</code>, un objeto como <code>String</code> o <code>List</code>, o <code>void</code> si el método no devuelve ningún valor. El valor devuelto debe coincidir con el tipo declarado.
+    </p>
+  </details>
+</details>
+
+<details>
+  <summary>Nombre del método</summary>
+  <p align="left">
+    Es la identificación del método y debe seguir las convenciones de nomenclatura de Java.
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      El nombre del método debe ser descriptivo y usar notación camelCase, iniciando con minúscula. Por ejemplo: <code>calcularPromedio</code>, <code>obtenerDatos</code>. Un buen nombre mejora la comprensión del código y su mantenibilidad. Además, el nombre debe ser único dentro de la clase (aunque puede haber sobrecarga si se diferencian en parámetros).
+    </p>
+  </details>
+</details>
+
+<details>
+  <summary>Parámetros (opcionales)</summary>
+  <p align="left">
+    Son los valores que el método recibe para operar con datos externos.
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      Los parámetros se definen entre los paréntesis del encabezado del método. Cada parámetro tiene un tipo de dato y un identificador. Ejemplo: <code>public void saludar(String nombre)</code>. Aquí <code>String nombre</code> es un parámetro. Si no se requiere información externa, se dejan los paréntesis vacíos: <code>()</code>.
+    </p>
+  </details>
+</details>
+
+<details>
+  <summary>Cuerpo del método</summary>
+  <p align="left">
+    Contiene las instrucciones que se ejecutan al invocar el método.
+  </p>
+  <details>
+    <summary align="center">ver más</summary>
+    <p align="left">
+      El cuerpo del método está delimitado por llaves <code>{ }</code> y contiene la lógica de ejecución. Allí se escriben sentencias como operaciones, ciclos, condiciones o llamadas a otros métodos. Por ejemplo:<br>
+      <pre><code>public int cuadrado(int x) {
+    return x * x;
+}</code></pre>
+      Este método devuelve el cuadrado del número recibido como parámetro.
+    </p>
+  </details>
+</details>
+
+
+
 <h3 align="left"> 🤔 | Parte de metodos Java</h3>
 <p align="left">
     Un método típico en Java consta de los siguientes elementos:
